@@ -1,4 +1,4 @@
-package yunhao.graph;
+package com.yunhao.graph;
 
 import com.yunhao.pojo.TreeNode;
 
@@ -49,7 +49,7 @@ public class GraphSearch {
         if (nodeHead == null) {
             return;
         }
-        Stack<TreeNode> myStack = new Stack<>();
+        Stack<TreeNode> myStack = new Stack<TreeNode>();
         myStack.add(nodeHead);
         while (!myStack.isEmpty()) {
             TreeNode node = myStack.pop();    // 弹出栈顶元素
@@ -69,7 +69,7 @@ public class GraphSearch {
         if (nodeHead == null) {
             return;
         }
-        Queue<TreeNode> myQueue = new LinkedList<>();
+        Queue<TreeNode> myQueue = new LinkedList<TreeNode>();
         myQueue.add(nodeHead);
         while (!myQueue.isEmpty()) {
             // 队列中删除元素

@@ -1,4 +1,4 @@
-package yunhao.pojo;
+package com.yunhao.pojo;
 
 public class TreeNode {
     public int data;
